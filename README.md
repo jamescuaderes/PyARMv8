@@ -5,20 +5,20 @@
 
 ## Supported Instructions
 * Register Type Instructions
-** ADD
-** SUB
-** AND
-** ORR
+  * ADD
+  * SUB
+  * AND
+  * ORR
 * Immediate Type Instructions
-** ADD
-** SUB
+  * ADD
+  * SUB
 * Data Type Instructions
-** LDUR
-** STUR
+  * LDUR
+  * STUR
 * Conditional Branch Type Instructions
-** CBZ
+  * CBZ
 * Unconditional Branch Type Instructions
-** B
+  * B
 
 ## Other Notes on Usage
 * Tags are supported for usage in CB and B instructions. However, tags are currently only supported using the syntax present in "test.S". The tag should be in the form "<tag_name>:\n"
